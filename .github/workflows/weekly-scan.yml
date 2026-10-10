@@ -2,9 +2,12 @@ name: Weekly Market Scanner
 
 on:
   schedule:
-    # This is 09:00 AM South African time (07:00 AM UTC) on every Saturday.
+    # This is 09:00 AM South African time (07:00 UTC) on every Saturday.
     - cron: '0 7 * * 6'
   workflow_dispatch: # This lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
 
 jobs:
   scan:
@@ -26,3 +29,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python market_scanner_report.py
+
+      - name: Save scan state for next week
+        if: always()
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add scan_state.json
+          git diff --staged --quiet || git commit -m "Update scan state"
+          git push
