@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-10-17",
+  "run_date": "2026-10-24",
   "script_version": "2026.10.09",
   "markets": {
     "USDCHF": {
@@ -10,30 +10,6 @@
       "qualifying_rows": 1,
       "combined": "COT-led Bullish \u2022 valuation aligned"
     },
-    "Corn": {
-      "bias": "Bearish",
-      "cot_lit": 3,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "COT-led Bearish \u2022 valuation bullish"
-    },
-    "Platinum": {
-      "bias": "Bullish",
-      "cot_lit": 3,
-      "season_window": "02 Oct \u2013 06 Nov \u00b7 36d \u00b7 broad \u00b7 65% \u00b7 17 of 26 \u00b7 +1.6%",
-      "season_strength": NaN,
-      "qualifying_rows": 1,
-      "combined": "COT-led Bullish \u2022 seasonality confirms"
-    },
-    "Russell 2000": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 1,
-      "combined": "Valuation-only Bullish (no valid COT side)"
-    },
     "Cocoa": {
       "bias": "Bullish",
       "cot_lit": 1,
@@ -42,11 +18,35 @@
       "qualifying_rows": 1,
       "combined": "COT-led Bullish \u2022 valuation aligned"
     },
+    "Platinum": {
+      "bias": "Bullish",
+      "cot_lit": 3,
+      "season_window": "02 Oct \u2013 06 Nov \u00b7 36d \u00b7 broad \u00b7 65% \u00b7 17 of 26 \u00b7 +1.7%",
+      "season_strength": NaN,
+      "qualifying_rows": 1,
+      "combined": "COT-led Bullish \u2022 seasonality confirms"
+    },
+    "Silver": {
+      "bias": "Bullish",
+      "cot_lit": 4,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 1,
+      "combined": "COT-led Bullish \u2022 valuation aligned"
+    },
     "Soybeans": {
       "bias": "Bearish",
-      "cot_lit": 5,
-      "season_window": "25 Sep \u2013 11 Dec \u00b7 78d \u00b7 broad \u00b7 73% \u00b7 19 of 26 \u00b7 +4.0%",
+      "cot_lit": 3,
+      "season_window": "02 Oct \u2013 18 Dec \u00b7 78d \u00b7 broad \u00b7 81% \u00b7 21 of 26 \u00b7 +5.0%",
       "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "COT-led Bearish \u2022 seasonality tempers conviction"
+    },
+    "DXY": {
+      "bias": "Bearish",
+      "cot_lit": 2,
+      "season_window": "28 Aug \u2013 13 Nov \u00b7 78d \u00b7 broad \u00b7 65% \u00b7 17 of 26 \u00b7 +0.7%",
+      "season_strength": NaN,
       "qualifying_rows": 0,
       "combined": "COT-led Bearish \u2022 seasonality tempers conviction"
     },
@@ -58,9 +58,9 @@
       "qualifying_rows": 1,
       "combined": "COT-led Bullish \u2022 valuation aligned"
     },
-    "Wheat (Chicago)": {
+    "Corn": {
       "bias": "Bearish",
-      "cot_lit": 2,
+      "cot_lit": 1,
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
@@ -68,11 +68,35 @@
     },
     "Wheat (KC)": {
       "bias": "Bearish",
-      "cot_lit": 2,
+      "cot_lit": 1,
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
       "combined": "COT-led Bearish \u2022 valuation bullish"
+    },
+    "Russell 2000": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "Valuation-only Bullish (no valid COT side)"
+    },
+    "USDCAD": {
+      "bias": "Neutral",
+      "cot_lit": 0,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "Valuation-only Bullish (no valid COT side)"
+    },
+    "Wheat (Chicago)": {
+      "bias": "Neutral",
+      "cot_lit": 0,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "Valuation-only Bullish (no valid COT side)"
     },
     "EURUSD": {
       "bias": "Bullish",
@@ -81,14 +105,6 @@
       "season_strength": NaN,
       "qualifying_rows": 0,
       "combined": "COT-led Bullish \u2022 valuation aligned"
-    },
-    "USDJPY": {
-      "bias": "Bullish",
-      "cot_lit": 3,
-      "season_window": "21 Aug \u2013 06 Nov \u00b7 78d \u00b7 broad \u00b7 73% \u00b7 19 of 26 \u00b7 +1.4%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "COT-led Bullish \u2022 seasonality confirms"
     },
     "GBPUSD": {
       "bias": "Bullish",
@@ -114,41 +130,33 @@
       "qualifying_rows": 1,
       "combined": "COT-led Bullish"
     },
-    "Soybean Oil": {
-      "bias": "Bearish",
-      "cot_lit": 4,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 1,
-      "combined": "COT-led Bearish"
-    },
-    "Silver": {
-      "bias": "Bullish",
-      "cot_lit": 1,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "COT-led Bullish \u2022 valuation aligned"
-    },
     "Copper": {
       "bias": "Bullish",
       "cot_lit": 2,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "COT-led Bullish"
-    },
-    "S&P 500": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "21 Aug \u2013 11 Dec \u00b7 113d \u00b7 broad \u00b7 85% \u00b7 22 of 26 \u00b7 +4.8%",
+      "season_window": "04 Sep \u2013 18 Dec \u00b7 106d \u00b7 broad \u00b7 73% \u00b7 19 of 26 \u00b7 +5.0%",
       "season_strength": "MODERATE",
       "qualifying_rows": 0,
-      "combined": "Neutral"
+      "combined": "COT-led Bullish \u2022 seasonality confirms"
     },
-    "Coffee": {
+    "Cotton": {
       "bias": "Bullish",
-      "cot_lit": 3,
+      "cot_lit": 1,
+      "season_window": "02 Oct \u2013 18 Dec \u00b7 78d \u00b7 broad \u00b7 69% \u00b7 18 of 26 \u00b7 +4.0%",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "COT-led Bullish \u2022 seasonality confirms"
+    },
+    "DAX": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "18 Sep \u2013 04 Dec \u00b7 78d \u00b7 broad \u00b7 88% \u00b7 23 of 26 \u00b7 +4.5%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 0,
+      "combined": "Seasonality-led Bullish (COT neutral) \u2022 window live now \u2022 valuation aligned"
+    },
+    "Heating Oil": {
+      "bias": "Bullish",
+      "cot_lit": 1,
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
@@ -156,11 +164,35 @@
     },
     "Gold": {
       "bias": "Bearish",
-      "cot_lit": 3,
+      "cot_lit": 1,
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
       "combined": "COT-led Bearish"
+    },
+    "USDJPY": {
+      "bias": "Bullish",
+      "cot_lit": 3,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "COT-led Bullish"
+    },
+    "NZDUSD": {
+      "bias": "Bullish",
+      "cot_lit": 1,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "COT-led Bullish"
+    },
+    "Coffee": {
+      "bias": "Bullish",
+      "cot_lit": 1,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "COT-led Bullish"
     },
     "Sugar": {
       "bias": "Bearish",
@@ -178,70 +210,6 @@
       "qualifying_rows": 0,
       "combined": "COT-led Bullish"
     },
-    "Cotton": {
-      "bias": "Bullish",
-      "cot_lit": 1,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "COT-led Bullish"
-    },
-    "Dow Jones": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "21 Aug \u2013 11 Dec \u00b7 113d \u00b7 broad \u00b7 84% \u00b7 21 of 25 \u00b7 +4.8%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "Heating Oil": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "UK 100": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "02 Oct \u2013 11 Dec \u00b7 71d \u00b7 broad \u00b7 85% \u00b7 22 of 26 \u00b7 +1.9%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "USDCAD": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "18 Sep \u2013 20 Nov \u00b7 64d \u00b7 broad \u00b7 77% \u00b7 20 of 26 \u00b7 +1.3%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "DXY": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "DAX": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
-    "NZDUSD": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "-",
-      "season_strength": NaN,
-      "qualifying_rows": 0,
-      "combined": "Neutral"
-    },
     "Nasdaq 100": {
       "bias": "n/a",
       "cot_lit": 0,
@@ -250,9 +218,41 @@
       "qualifying_rows": 0,
       "combined": "Neutral"
     },
+    "S&P 500": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "-",
+      "season_strength": NaN,
+      "qualifying_rows": 0,
+      "combined": "Neutral"
+    },
+    "Dow Jones": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "28 Aug \u2013 11 Dec \u00b7 106d \u00b7 broad \u00b7 84% \u00b7 21 of 25 \u00b7 +4.6%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Neutral"
+    },
     "Nikkei 225": {
       "bias": "n/a",
       "cot_lit": 0,
+      "season_window": "25 Sep \u2013 04 Dec \u00b7 71d \u00b7 broad \u00b7 78% \u00b7 18 of 23 \u00b7 +4.2%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Neutral"
+    },
+    "UK 100": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "02 Oct \u2013 11 Dec \u00b7 71d \u00b7 broad \u00b7 85% \u00b7 22 of 26 \u00b7 +1.8%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Neutral"
+    },
+    "Soybean Oil": {
+      "bias": "Neutral",
+      "cot_lit": 1,
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
@@ -262,10 +262,10 @@
   "argv": [],
   "price_tickers": 33,
   "price_bars": 6461,
-  "cot_date": "2026-10-13",
+  "cot_date": "2026-10-20",
   "cot_status": "ok",
-  "cot_rows": 23831,
+  "cot_rows": 23832,
   "chart_markets": 32,
-  "runtime_sec": 130.4,
+  "runtime_sec": 70.0,
   "markets_scanned": 32
 }
