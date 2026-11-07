@@ -1,104 +1,46 @@
 {
-  "run_date": "2026-10-31",
+  "run_date": "2026-11-07",
   "script_version": "2026.10.15-bp30e",
   "markets": {
     "Silver": {
       "bias": "Bullish",
       "cot_lit": 4,
-      "season_window": "01 Oct \u2013 24 Oct \u00b7 23d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +3.2%",
-      "season_strength": "STRONG",
+      "season_window": "23 Oct \u2013 08 Dec \u00b7 46d \u00b7 broad \u00b7 73% \u00b7 11 of 15 \u00b7 -1.4%",
+      "season_strength": "MODERATE",
       "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow confirms",
+      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
       "peer_relation": {
         "peer": "Gold",
-        "badge": "unread",
+        "badge": "same",
         "evidence": "empty",
         "streak": 1
       }
     },
-    "Platinum": {
-      "bias": "Bullish",
-      "cot_lit": 5,
-      "season_window": "16 Oct \u2013 06 Dec \u00b7 51d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 -0.8%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
-      "peer_relation": {
-        "peer": "Palladium",
-        "badge": "same",
-        "evidence": "mixed",
-        "streak": 1
-      }
-    },
-    "Corn": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "19 Nov \u2013 28 Dec \u00b7 39d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +3.4%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 relative value aligned",
-      "peer_relation": {
-        "peer": "Wheat (KC)",
-        "badge": "unread",
-        "evidence": "same",
-        "streak": 1
-      }
-    },
-    "USDCAD": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +0.7%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
-    },
     "EURUSD": {
       "bias": "Bullish",
       "cot_lit": 5,
-      "season_window": "22 Oct \u2013 12 Nov \u00b7 21d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 -1.1%",
-      "season_strength": "STRONG",
+      "season_window": "27 Oct \u2013 18 Nov \u00b7 22d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 -1.1%",
+      "season_strength": "MODERATE",
       "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
       "peer_relation": {
         "peer": "GBPUSD",
         "badge": "same",
         "evidence": "same",
-        "streak": 1
+        "streak": 2
       }
     },
-    "Natural Gas": {
+    "USDCHF": {
       "bias": "Bullish",
-      "cot_lit": 5,
-      "season_window": "27 Nov \u2013 28 Jan \u00b7 62d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 -17.8%",
+      "cot_lit": 3,
+      "season_window": "25 Nov \u2013 24 Jan \u00b7 60d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 -2.3%",
       "season_strength": "STRONG",
       "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction"
-    },
-    "Sugar": {
-      "bias": "Bearish",
-      "cot_lit": 5,
-      "season_window": "30 Sep \u2013 07 Oct \u00b7 7d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 +6.7%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 1,
-      "combined": "Flow-led Bearish \u2022 calendar flow tempers conviction",
-      "peer_relation": {
-        "peer": "Coffee",
-        "badge": "opposite",
-        "evidence": "same",
-        "streak": 1
-      }
-    },
-    "Wheat (KC)": {
-      "bias": "Bullish",
-      "cot_lit": 1,
-      "season_window": "03 Nov \u2013 09 Dec \u00b7 36d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 -3.4%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
       "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
       "peer_relation": {
-        "peer": "Corn",
-        "badge": "unread",
-        "evidence": "same",
+        "peer": "USDJPY",
+        "badge": "same",
+        "evidence": "empty",
         "streak": 1
       }
     },
@@ -113,55 +55,105 @@
         "peer": "WTI Crude",
         "badge": "same",
         "evidence": "empty",
-        "streak": 1
+        "streak": 2
       }
     },
-    "USDCHF": {
-      "bias": "Bullish",
-      "cot_lit": 2,
-      "season_window": "19 Nov \u2013 22 Jan \u00b7 64d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 -2.2%",
+    "Corn": {
+      "bias": "Neutral",
+      "cot_lit": 0,
+      "season_window": "23 Nov \u2013 23 Dec \u00b7 30d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +3.3%",
       "season_strength": "STRONG",
-      "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+      "qualifying_rows": 0,
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 relative value aligned",
       "peer_relation": {
-        "peer": "USDJPY",
-        "badge": "same",
+        "peer": "Wheat (KC)",
+        "badge": "unread",
         "evidence": "same",
-        "streak": 1
+        "streak": 2
       }
     },
     "GBPUSD": {
       "bias": "Bullish",
-      "cot_lit": 3,
-      "season_window": "08 Oct \u2013 20 Oct \u00b7 12d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 +0.6%",
+      "cot_lit": 2,
+      "season_window": "18 Nov \u2013 13 Dec \u00b7 25d \u00b7 mid-length \u00b7 80% \u00b7 12 of 15 \u00b7 +0.9%",
       "season_strength": "MODERATE",
       "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow confirms",
+      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow confirms",
       "peer_relation": {
         "peer": "EURUSD",
         "badge": "same",
         "evidence": "same",
+        "streak": 2
+      }
+    },
+    "Natural Gas": {
+      "bias": "Bullish",
+      "cot_lit": 5,
+      "season_window": "26 Nov \u2013 17 Dec \u00b7 21d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 -9.2%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 1,
+      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction"
+    },
+    "AUDUSD": {
+      "bias": "Bullish",
+      "cot_lit": 5,
+      "season_window": "11 Dec \u2013 20 Dec \u00b7 9d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 -0.7%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 1,
+      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+      "peer_relation": {
+        "peer": "NZDUSD",
+        "badge": "same",
+        "evidence": "mixed",
         "streak": 1
       }
     },
-    "USDJPY": {
+    "NZDUSD": {
       "bias": "Bullish",
-      "cot_lit": 4,
-      "season_window": "09 Oct \u2013 10 Nov \u00b7 32d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +1.5%",
+      "cot_lit": 5,
+      "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 73% \u00b7 11 of 15 \u00b7 -0.2%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 1,
+      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+      "peer_relation": {
+        "peer": "AUDUSD",
+        "badge": "same",
+        "evidence": "mixed",
+        "streak": 1
+      }
+    },
+    "Wheat (KC)": {
+      "bias": "Bullish",
+      "cot_lit": 2,
+      "season_window": "02 Nov \u2013 09 Dec \u00b7 37d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 -4.1%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 0,
+      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
+      "peer_relation": {
+        "peer": "Corn",
+        "badge": "unread",
+        "evidence": "same",
+        "streak": 2
+      }
+    },
+    "Platinum": {
+      "bias": "Bullish",
+      "cot_lit": 5,
+      "season_window": "02 Dec \u2013 05 Jan \u00b7 34d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +5.1%",
       "season_strength": "STRONG",
       "qualifying_rows": 1,
       "combined": "Flow-led Bullish \u2022 calendar flow confirms",
       "peer_relation": {
-        "peer": "USDCHF",
+        "peer": "Palladium",
         "badge": "same",
-        "evidence": "same",
-        "streak": 1
+        "evidence": "mixed",
+        "streak": 2
       }
     },
     "WTI Crude": {
       "bias": "Bullish",
-      "cot_lit": 4,
-      "season_window": "02 Dec \u2013 17 Jan \u00b7 46d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +2.5%",
+      "cot_lit": 3,
+      "season_window": "02 Dec \u2013 16 Jan \u00b7 45d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +2.5%",
       "season_strength": "STRONG",
       "qualifying_rows": 1,
       "combined": "Flow-led Bullish \u2022 calendar flow confirms",
@@ -169,108 +161,146 @@
         "peer": "Heating Oil",
         "badge": "same",
         "evidence": "empty",
-        "streak": 1
-      }
-    },
-    "AUDUSD": {
-      "bias": "Bullish",
-      "cot_lit": 5,
-      "season_window": "17 Nov \u2013 02 Dec \u00b7 15d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 +0.4%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow confirms",
-      "peer_relation": {
-        "peer": "NZDUSD",
-        "badge": "same",
-        "evidence": "opposite",
-        "streak": 3
-      }
-    },
-    "NZDUSD": {
-      "bias": "Bullish",
-      "cot_lit": 5,
-      "season_window": "12 Oct \u2013 21 Oct \u00b7 9d \u00b7 sharp \u00b7 87% \u00b7 13 of 15 \u00b7 +0.8%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 1,
-      "combined": "Flow-led Bullish \u2022 calendar flow confirms",
-      "peer_relation": {
-        "peer": "AUDUSD",
-        "badge": "same",
-        "evidence": "opposite",
-        "streak": 3
+        "streak": 2
       }
     },
     "Palladium": {
       "bias": "Bullish",
-      "cot_lit": 3,
-      "season_window": "13 Nov \u2013 20 Jan \u00b7 68d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 +7.7%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow confirms",
-      "peer_relation": {
-        "peer": "Platinum",
-        "badge": "same",
-        "evidence": "mixed",
-        "streak": 1
-      }
-    },
-    "Soybeans": {
-      "bias": "Bearish",
-      "cot_lit": 2,
-      "season_window": "05 Oct \u2013 02 Nov \u00b7 28d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +1.7%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
-      "combined": "Flow-led Bearish \u2022 calendar flow tempers conviction",
-      "peer_relation": {
-        "peer": "Corn",
-        "badge": "unread",
-        "evidence": "empty",
-        "streak": 1
-      }
-    },
-    "Coffee": {
-      "bias": "Bullish",
-      "cot_lit": 2,
-      "season_window": "15 Oct \u2013 09 Nov \u00b7 25d \u00b7 mid-length \u00b7 80% \u00b7 12 of 15 \u00b7 -3.4%",
+      "cot_lit": 5,
+      "season_window": "29 Oct \u2013 23 Nov \u00b7 25d \u00b7 mid-length \u00b7 73% \u00b7 11 of 15 \u00b7 -2.2%",
       "season_strength": "MODERATE",
       "qualifying_rows": 0,
       "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
       "peer_relation": {
-        "peer": "Sugar",
-        "badge": "opposite",
-        "evidence": "same",
+        "peer": "Platinum",
+        "badge": "same",
+        "evidence": "mixed",
+        "streak": 2
+      }
+    },
+    "Gold": {
+      "bias": "Bullish",
+      "cot_lit": 2,
+      "season_window": "27 Oct \u2013 14 Dec \u00b7 48d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 -1.9%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+      "peer_relation": {
+        "peer": "Silver",
+        "badge": "same",
+        "evidence": "empty",
         "streak": 1
       }
     },
+    "Cocoa": {
+      "bias": "Bullish",
+      "cot_lit": 1,
+      "season_window": "30 Oct \u2013 14 Dec \u00b7 45d \u00b7 mid-length \u00b7 73% \u00b7 11 of 15 \u00b7 +3.1%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow confirms"
+    },
+    "USDJPY": {
+      "bias": "Bullish",
+      "cot_lit": 4,
+      "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +1.4%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 1,
+      "combined": "Flow-led Bullish \u2022 calendar flow confirms",
+      "peer_relation": {
+        "peer": "USDCHF",
+        "badge": "same",
+        "evidence": "empty",
+        "streak": 1
+      }
+    },
+    "USDCAD": {
+      "bias": "Bullish",
+      "cot_lit": 2,
+      "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +0.7%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 1,
+      "combined": "Flow-led Bullish \u2022 calendar flow confirms"
+    },
     "DXY": {
       "bias": "Bearish",
-      "cot_lit": 1,
-      "season_window": "22 Oct \u2013 12 Nov \u00b7 21d \u00b7 sharp \u00b7 87% \u00b7 13 of 15 \u00b7 +0.9%",
-      "season_strength": "STRONG",
+      "cot_lit": 3,
+      "season_window": "23 Oct \u2013 15 Nov \u00b7 23d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +0.8%",
+      "season_strength": "MODERATE",
       "qualifying_rows": 0,
       "combined": "Flow-led Bearish \u2022 calendar flow tempers conviction",
       "peer_relation": {
         "peer": "EURUSD",
         "badge": "opposite",
         "evidence": "empty",
-        "streak": 2
+        "streak": 3
       }
     },
     "Copper": {
       "bias": "Bullish",
       "cot_lit": 2,
-      "season_window": "11 Nov \u2013 18 Jan \u00b7 68d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +4.0%",
+      "season_window": "23 Nov \u2013 01 Feb \u00b7 70d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +4.2%",
       "season_strength": "STRONG",
       "qualifying_rows": 1,
       "combined": "Flow-led Bullish \u2022 calendar flow confirms"
     },
-    "Cocoa": {
-      "bias": "Bullish",
-      "cot_lit": 1,
-      "season_window": "14 Oct \u2013 15 Dec \u00b7 62d \u00b7 broad \u00b7 73% \u00b7 11 of 15 \u00b7 +3.8%",
+    "Soybeans": {
+      "bias": "Neutral",
+      "cot_lit": 0,
+      "season_window": "09 Dec \u2013 16 Dec \u00b7 7d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 -0.5%",
       "season_strength": "MODERATE",
       "qualifying_rows": 0,
-      "combined": "Flow-led Bullish \u2022 calendar flow confirms"
+      "combined": "Relative-value-only Bullish (no valid flow side)",
+      "peer_relation": {
+        "peer": "Corn",
+        "badge": "unread",
+        "evidence": "mixed",
+        "streak": 1
+      }
+    },
+    "Nasdaq 100": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "27 Oct \u2013 10 Dec \u00b7 44d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +3.7%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 0,
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
+    },
+    "Nikkei 225": {
+      "bias": "n/a",
+      "cot_lit": 0,
+      "season_window": "27 Oct \u2013 17 Nov \u00b7 21d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 +3.7%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 0,
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
+    },
+    "Coffee": {
+      "bias": "Bullish",
+      "cot_lit": 5,
+      "season_window": "13 Nov \u2013 30 Nov \u00b7 17d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 +3.3%",
+      "season_strength": "MODERATE",
+      "qualifying_rows": 0,
+      "combined": "Flow-led Bullish \u2022 calendar flow confirms",
+      "peer_relation": {
+        "peer": "Sugar",
+        "badge": "opposite",
+        "evidence": "empty",
+        "streak": 1
+      }
+    },
+    "Sugar": {
+      "bias": "Bearish",
+      "cot_lit": 4,
+      "season_window": "27 Oct \u2013 11 Dec \u00b7 45d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 -4.8%",
+      "season_strength": "STRONG",
+      "qualifying_rows": 0,
+      "combined": "Flow-led Bearish \u2022 calendar flow confirms",
+      "peer_relation": {
+        "peer": "Coffee",
+        "badge": "opposite",
+        "evidence": "empty",
+        "streak": 1
+      }
     },
     "Cotton": {
       "bias": "Bullish",
@@ -280,27 +310,13 @@
       "qualifying_rows": 0,
       "combined": "Flow-led Bullish \u2022 calendar flow confirms"
     },
-    "Gold": {
-      "bias": "Neutral",
-      "cot_lit": 0,
-      "season_window": "21 Oct \u2013 15 Dec \u00b7 55d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 -2.2%",
-      "season_strength": "MODERATE",
-      "qualifying_rows": 0,
-      "combined": "Neutral",
-      "peer_relation": {
-        "peer": "Silver",
-        "badge": "unread",
-        "evidence": "empty",
-        "streak": 1
-      }
-    },
     "DAX": {
       "bias": "n/a",
       "cot_lit": 0,
-      "season_window": "30 Sep \u2013 08 Dec \u00b7 69d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +4.9%",
+      "season_window": "23 Nov \u2013 11 Jan \u00b7 49d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +3.9%",
       "season_strength": "STRONG",
       "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 relative value aligned"
     },
     "Dow Jones": {
       "bias": "n/a",
@@ -308,31 +324,15 @@
       "season_window": "27 Oct \u2013 07 Dec \u00b7 41d \u00b7 mid-length \u00b7 100% \u00b7 15 of 15 \u00b7 +4.1%",
       "season_strength": "STRONG",
       "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
-    },
-    "Nasdaq 100": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "22 Oct \u2013 10 Dec \u00b7 49d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +3.7%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
-    },
-    "Nikkei 225": {
-      "bias": "n/a",
-      "cot_lit": 0,
-      "season_window": "22 Oct \u2013 08 Dec \u00b7 47d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +4.8%",
-      "season_strength": "STRONG",
-      "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
     },
     "S&P 500": {
       "bias": "n/a",
       "cot_lit": 0,
-      "season_window": "27 Oct \u2013 06 Dec \u00b7 40d \u00b7 mid-length \u00b7 100% \u00b7 15 of 15 \u00b7 +3.3%",
+      "season_window": "27 Oct \u2013 07 Dec \u00b7 41d \u00b7 mid-length \u00b7 100% \u00b7 15 of 15 \u00b7 +3.4%",
       "season_strength": "STRONG",
       "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
     },
     "UK 100": {
       "bias": "n/a",
@@ -340,7 +340,7 @@
       "season_window": "20 Nov \u2013 18 Jan \u00b7 59d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +3.6%",
       "season_strength": "STRONG",
       "qualifying_rows": 0,
-      "combined": "Calendar-led Bullish (flow neutral)"
+      "combined": "Calendar-led Bullish (flow neutral) \u2022 relative value aligned"
     },
     "Russell 2000": {
       "bias": "n/a",
@@ -348,77 +348,13 @@
       "season_window": "-",
       "season_strength": NaN,
       "qualifying_rows": 0,
-      "combined": "Neutral"
+      "combined": "Relative-value-only Bullish (no valid flow side)"
     }
   },
   "baseline": {
-    "run_date": "2026-10-24",
-    "cot_date": "2026-10-20",
+    "run_date": "2026-10-31",
+    "cot_date": "2026-10-27",
     "markets": {
-      "EURUSD": {
-        "bias": "Bullish",
-        "cot_lit": 5,
-        "season_window": "22 Oct \u2013 12 Nov \u00b7 21d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 -1.1%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 1,
-        "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
-        "peer_relation": {
-          "peer": "GBPUSD",
-          "badge": "same",
-          "evidence": "empty",
-          "streak": 1
-        }
-      },
-      "USDCHF": {
-        "bias": "Bullish",
-        "cot_lit": 2,
-        "season_window": "19 Nov \u2013 22 Jan \u00b7 64d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 -2.2%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 1,
-        "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
-        "peer_relation": {
-          "peer": "USDJPY",
-          "badge": "same",
-          "evidence": "empty",
-          "streak": 1
-        }
-      },
-      "Corn": {
-        "bias": "Bearish",
-        "cot_lit": 1,
-        "season_window": "19 Nov \u2013 28 Dec \u00b7 39d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +3.4%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 0,
-        "combined": "Flow-led Bearish \u2022 relative value bullish \u2022 calendar flow tempers conviction",
-        "peer_relation": {
-          "peer": "Wheat (KC)",
-          "badge": "same",
-          "evidence": "same",
-          "streak": 1
-        }
-      },
-      "Platinum": {
-        "bias": "Bullish",
-        "cot_lit": 4,
-        "season_window": "16 Oct \u2013 06 Dec \u00b7 51d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 -0.8%",
-        "season_strength": "MODERATE",
-        "qualifying_rows": 1,
-        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
-        "peer_relation": {
-          "peer": "Palladium",
-          "badge": "same",
-          "evidence": "opposite",
-          "streak": 2
-        }
-      },
-      "USDCAD": {
-        "bias": "Neutral",
-        "cot_lit": 0,
-        "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +0.7%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 0,
-        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
-      },
       "Silver": {
         "bias": "Bullish",
         "cot_lit": 4,
@@ -429,8 +365,58 @@
         "peer_relation": {
           "peer": "Gold",
           "badge": "unread",
+          "evidence": "empty",
+          "streak": 1
+        }
+      },
+      "Platinum": {
+        "bias": "Bullish",
+        "cot_lit": 5,
+        "season_window": "16 Oct \u2013 06 Dec \u00b7 51d \u00b7 broad \u00b7 80% \u00b7 12 of 15 \u00b7 -0.8%",
+        "season_strength": "MODERATE",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+        "peer_relation": {
+          "peer": "Palladium",
+          "badge": "same",
           "evidence": "mixed",
-          "streak": 2
+          "streak": 1
+        }
+      },
+      "Corn": {
+        "bias": "Neutral",
+        "cot_lit": 0,
+        "season_window": "19 Nov \u2013 28 Dec \u00b7 39d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +3.4%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 0,
+        "combined": "Calendar-led Bullish (flow neutral) \u2022 relative value aligned",
+        "peer_relation": {
+          "peer": "Wheat (KC)",
+          "badge": "unread",
+          "evidence": "same",
+          "streak": 1
+        }
+      },
+      "USDCAD": {
+        "bias": "Neutral",
+        "cot_lit": 0,
+        "season_window": "23 Oct \u2013 17 Nov \u00b7 25d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +0.7%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 0,
+        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
+      },
+      "EURUSD": {
+        "bias": "Bullish",
+        "cot_lit": 5,
+        "season_window": "22 Oct \u2013 12 Nov \u00b7 21d \u00b7 sharp \u00b7 93% \u00b7 14 of 15 \u00b7 -1.1%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+        "peer_relation": {
+          "peer": "GBPUSD",
+          "badge": "same",
+          "evidence": "same",
+          "streak": 1
         }
       },
       "Natural Gas": {
@@ -440,20 +426,6 @@
         "season_strength": "STRONG",
         "qualifying_rows": 1,
         "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction"
-      },
-      "WTI Crude": {
-        "bias": "Bullish",
-        "cot_lit": 3,
-        "season_window": "27 Oct \u2013 04 Nov \u00b7 8d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 -1.6%",
-        "season_strength": "MODERATE",
-        "qualifying_rows": 1,
-        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
-        "peer_relation": {
-          "peer": "Heating Oil",
-          "badge": "unread",
-          "evidence": "empty",
-          "streak": 3
-        }
       },
       "Sugar": {
         "bias": "Bearish",
@@ -465,27 +437,47 @@
         "peer_relation": {
           "peer": "Coffee",
           "badge": "opposite",
-          "evidence": "empty",
+          "evidence": "same",
           "streak": 1
         }
       },
-      "Cocoa": {
-        "bias": "Bullish",
-        "cot_lit": 1,
-        "season_window": "14 Oct \u2013 15 Dec \u00b7 62d \u00b7 broad \u00b7 73% \u00b7 11 of 15 \u00b7 +3.8%",
-        "season_strength": "MODERATE",
-        "qualifying_rows": 0,
-        "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow confirms"
-      },
       "Wheat (KC)": {
-        "bias": "Bearish",
+        "bias": "Bullish",
         "cot_lit": 1,
         "season_window": "03 Nov \u2013 09 Dec \u00b7 36d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 -3.4%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
-        "combined": "Flow-led Bearish \u2022 relative value bullish \u2022 calendar flow confirms",
+        "combined": "Flow-led Bullish \u2022 relative value aligned \u2022 calendar flow tempers conviction",
         "peer_relation": {
           "peer": "Corn",
+          "badge": "unread",
+          "evidence": "same",
+          "streak": 1
+        }
+      },
+      "Heating Oil": {
+        "bias": "Bullish",
+        "cot_lit": 2,
+        "season_window": "25 Nov \u2013 13 Dec \u00b7 18d \u00b7 sharp \u00b7 87% \u00b7 13 of 15 \u00b7 -3.6%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+        "peer_relation": {
+          "peer": "WTI Crude",
+          "badge": "same",
+          "evidence": "empty",
+          "streak": 1
+        }
+      },
+      "USDCHF": {
+        "bias": "Bullish",
+        "cot_lit": 2,
+        "season_window": "19 Nov \u2013 22 Jan \u00b7 64d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 -2.2%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow tempers conviction",
+        "peer_relation": {
+          "peer": "USDJPY",
           "badge": "same",
           "evidence": "same",
           "streak": 1
@@ -493,7 +485,7 @@
       },
       "GBPUSD": {
         "bias": "Bullish",
-        "cot_lit": 4,
+        "cot_lit": 3,
         "season_window": "08 Oct \u2013 20 Oct \u00b7 12d \u00b7 sharp \u00b7 80% \u00b7 12 of 15 \u00b7 +0.6%",
         "season_strength": "MODERATE",
         "qualifying_rows": 1,
@@ -501,19 +493,33 @@
         "peer_relation": {
           "peer": "EURUSD",
           "badge": "same",
-          "evidence": "empty",
+          "evidence": "same",
           "streak": 1
         }
       },
       "USDJPY": {
         "bias": "Bullish",
-        "cot_lit": 3,
+        "cot_lit": 4,
         "season_window": "09 Oct \u2013 10 Nov \u00b7 32d \u00b7 mid-length \u00b7 93% \u00b7 14 of 15 \u00b7 +1.5%",
         "season_strength": "STRONG",
         "qualifying_rows": 1,
         "combined": "Flow-led Bullish \u2022 calendar flow confirms",
         "peer_relation": {
           "peer": "USDCHF",
+          "badge": "same",
+          "evidence": "same",
+          "streak": 1
+        }
+      },
+      "WTI Crude": {
+        "bias": "Bullish",
+        "cot_lit": 4,
+        "season_window": "02 Dec \u2013 17 Jan \u00b7 46d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +2.5%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow confirms",
+        "peer_relation": {
+          "peer": "Heating Oil",
           "badge": "same",
           "evidence": "empty",
           "streak": 1
@@ -530,7 +536,7 @@
           "peer": "NZDUSD",
           "badge": "same",
           "evidence": "opposite",
-          "streak": 2
+          "streak": 3
         }
       },
       "NZDUSD": {
@@ -544,16 +550,8 @@
           "peer": "AUDUSD",
           "badge": "same",
           "evidence": "opposite",
-          "streak": 2
+          "streak": 3
         }
-      },
-      "Copper": {
-        "bias": "Neutral",
-        "cot_lit": 1,
-        "season_window": "11 Nov \u2013 18 Jan \u00b7 68d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +4.0%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 1,
-        "combined": "Calendar-led Bullish (flow neutral)"
       },
       "Palladium": {
         "bias": "Bullish",
@@ -565,35 +563,27 @@
         "peer_relation": {
           "peer": "Platinum",
           "badge": "same",
-          "evidence": "opposite",
-          "streak": 2
+          "evidence": "mixed",
+          "streak": 1
         }
       },
       "Soybeans": {
         "bias": "Bearish",
-        "cot_lit": 4,
+        "cot_lit": 2,
         "season_window": "05 Oct \u2013 02 Nov \u00b7 28d \u00b7 mid-length \u00b7 87% \u00b7 13 of 15 \u00b7 +1.7%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
         "combined": "Flow-led Bearish \u2022 calendar flow tempers conviction",
         "peer_relation": {
           "peer": "Corn",
-          "badge": "same",
+          "badge": "unread",
           "evidence": "empty",
-          "streak": 6
+          "streak": 1
         }
-      },
-      "Cotton": {
-        "bias": "Bearish",
-        "cot_lit": 3,
-        "season_window": "20 Nov \u2013 25 Jan \u00b7 66d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +5.6%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 0,
-        "combined": "Flow-led Bearish \u2022 calendar flow tempers conviction"
       },
       "Coffee": {
         "bias": "Bullish",
-        "cot_lit": 1,
+        "cot_lit": 2,
         "season_window": "15 Oct \u2013 09 Nov \u00b7 25d \u00b7 mid-length \u00b7 80% \u00b7 12 of 15 \u00b7 -3.4%",
         "season_strength": "MODERATE",
         "qualifying_rows": 0,
@@ -601,13 +591,13 @@
         "peer_relation": {
           "peer": "Sugar",
           "badge": "opposite",
-          "evidence": "empty",
+          "evidence": "same",
           "streak": 1
         }
       },
       "DXY": {
         "bias": "Bearish",
-        "cot_lit": 3,
+        "cot_lit": 1,
         "season_window": "22 Oct \u2013 12 Nov \u00b7 21d \u00b7 sharp \u00b7 87% \u00b7 13 of 15 \u00b7 +0.9%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
@@ -616,38 +606,32 @@
           "peer": "EURUSD",
           "badge": "opposite",
           "evidence": "empty",
-          "streak": 1
+          "streak": 2
         }
       },
-      "Heating Oil": {
-        "bias": "Neutral",
-        "cot_lit": 0,
-        "season_window": "25 Nov \u2013 13 Dec \u00b7 18d \u00b7 sharp \u00b7 87% \u00b7 13 of 15 \u00b7 -3.6%",
+      "Copper": {
+        "bias": "Bullish",
+        "cot_lit": 2,
+        "season_window": "11 Nov \u2013 18 Jan \u00b7 68d \u00b7 broad \u00b7 87% \u00b7 13 of 15 \u00b7 +4.0%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 1,
+        "combined": "Flow-led Bullish \u2022 calendar flow confirms"
+      },
+      "Cocoa": {
+        "bias": "Bullish",
+        "cot_lit": 1,
+        "season_window": "14 Oct \u2013 15 Dec \u00b7 62d \u00b7 broad \u00b7 73% \u00b7 11 of 15 \u00b7 +3.8%",
+        "season_strength": "MODERATE",
+        "qualifying_rows": 0,
+        "combined": "Flow-led Bullish \u2022 calendar flow confirms"
+      },
+      "Cotton": {
+        "bias": "Bullish",
+        "cot_lit": 1,
+        "season_window": "20 Nov \u2013 25 Jan \u00b7 66d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +5.6%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
-        "combined": "Calendar-led Bearish (flow neutral)",
-        "peer_relation": {
-          "peer": "WTI Crude",
-          "badge": "unread",
-          "evidence": "empty",
-          "streak": 3
-        }
-      },
-      "DAX": {
-        "bias": "n/a",
-        "cot_lit": 0,
-        "season_window": "30 Sep \u2013 08 Dec \u00b7 69d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +4.9%",
-        "season_strength": "STRONG",
-        "qualifying_rows": 0,
-        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now \u2022 relative value aligned"
-      },
-      "Russell 2000": {
-        "bias": "n/a",
-        "cot_lit": 0,
-        "season_window": "-",
-        "season_strength": NaN,
-        "qualifying_rows": 0,
-        "combined": "Relative-value-only Bullish (no valid flow side)"
+        "combined": "Flow-led Bullish \u2022 calendar flow confirms"
       },
       "Gold": {
         "bias": "Neutral",
@@ -659,9 +643,17 @@
         "peer_relation": {
           "peer": "Silver",
           "badge": "unread",
-          "evidence": "mixed",
-          "streak": 2
+          "evidence": "empty",
+          "streak": 1
         }
+      },
+      "DAX": {
+        "bias": "n/a",
+        "cot_lit": 0,
+        "season_window": "30 Sep \u2013 08 Dec \u00b7 69d \u00b7 broad \u00b7 93% \u00b7 14 of 15 \u00b7 +4.9%",
+        "season_strength": "STRONG",
+        "qualifying_rows": 0,
+        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
       },
       "Dow Jones": {
         "bias": "n/a",
@@ -669,7 +661,7 @@
         "season_window": "27 Oct \u2013 07 Dec \u00b7 41d \u00b7 mid-length \u00b7 100% \u00b7 15 of 15 \u00b7 +4.1%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
-        "combined": "Calendar-led Bullish (flow neutral)"
+        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
       },
       "Nasdaq 100": {
         "bias": "n/a",
@@ -693,7 +685,7 @@
         "season_window": "27 Oct \u2013 06 Dec \u00b7 40d \u00b7 mid-length \u00b7 100% \u00b7 15 of 15 \u00b7 +3.3%",
         "season_strength": "STRONG",
         "qualifying_rows": 0,
-        "combined": "Calendar-led Bullish (flow neutral)"
+        "combined": "Calendar-led Bullish (flow neutral) \u2022 window live now"
       },
       "UK 100": {
         "bias": "n/a",
@@ -702,21 +694,26 @@
         "season_strength": "STRONG",
         "qualifying_rows": 0,
         "combined": "Calendar-led Bullish (flow neutral)"
+      },
+      "Russell 2000": {
+        "bias": "n/a",
+        "cot_lit": 0,
+        "season_window": "-",
+        "season_strength": NaN,
+        "qualifying_rows": 0,
+        "combined": "Neutral"
       }
     }
   },
-  "argv": [
-    "--mode",
-    "sunday"
-  ],
+  "argv": [],
   "mode": "sunday",
   "price_tickers": 31,
   "price_bars": 6461,
-  "cot_date": "2026-10-27",
+  "cot_date": "2026-11-03",
   "cot_status": "ok",
-  "cot_rows": 46165,
+  "cot_rows": 46179,
   "chart_markets": 30,
-  "runtime_sec": 283.2,
+  "runtime_sec": 116.9,
   "markets_scanned": 30,
   "peer_states_count": 18,
   "season_windows_locked": 29
